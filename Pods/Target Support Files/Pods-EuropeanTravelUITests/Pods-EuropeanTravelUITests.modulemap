@@ -1,0 +1,6 @@
+framework module Pods_EuropeanTravelUITests {
+  umbrella header "Pods-EuropeanTravelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

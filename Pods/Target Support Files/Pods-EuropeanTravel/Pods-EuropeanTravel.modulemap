@@ -1,0 +1,6 @@
+framework module Pods_EuropeanTravel {
+  umbrella header "Pods-EuropeanTravel-umbrella.h"
+
+  export *
+  module * { export * }
+}

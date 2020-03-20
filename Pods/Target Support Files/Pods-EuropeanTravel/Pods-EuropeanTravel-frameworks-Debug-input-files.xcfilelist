@@ -1,0 +1,13 @@
+${PODS_ROOT}/Target Support Files/Pods-EuropeanTravel/Pods-EuropeanTravel-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AAInfographics/AAInfographics.framework
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CWLateralSlide/CWLateralSlide.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/ZLSwipeableView/ZLSwipeableView.framework

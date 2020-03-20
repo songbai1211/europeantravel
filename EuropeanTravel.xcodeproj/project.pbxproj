@@ -1,0 +1,1290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2CAF36D65229633D3D5AD6 /* Pods_EuropeanTravelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46ED12742560FF5F3D119CE /* Pods_EuropeanTravelTests.framework */; };
+		692CDE3EA5305BC77FD68225 /* Pods_EuropeanTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75D969A57EF5A9F28A9348C /* Pods_EuropeanTravel.framework */; };
+		92A1412594316DDC14D3A8A2 /* Pods_EuropeanTravelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD77651EED0D0F5C3839CF8 /* Pods_EuropeanTravelUITests.framework */; };
+		D5308EBF2410FE2500A3FA4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308EBE2410FE2500A3FA4D /* AppDelegate.m */; };
+		D5308EC52410FE2500A3FA4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308EC42410FE2500A3FA4D /* ViewController.m */; };
+		D5308EC82410FE2500A3FA4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5308EC62410FE2500A3FA4D /* Main.storyboard */; };
+		D5308ECA2410FE2700A3FA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5308EC92410FE2700A3FA4D /* Assets.xcassets */; };
+		D5308ECD2410FE2700A3FA4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5308ECB2410FE2700A3FA4D /* LaunchScreen.storyboard */; };
+		D5308ED02410FE2700A3FA4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308ECF2410FE2700A3FA4D /* main.m */; };
+		D5308EDA2410FE2700A3FA4D /* EuropeanTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308ED92410FE2700A3FA4D /* EuropeanTravelTests.m */; };
+		D5308EE52410FE2700A3FA4D /* EuropeanTravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308EE42410FE2700A3FA4D /* EuropeanTravelUITests.m */; };
+		D5308EF52411007900A3FA4D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5308EF42411007900A3FA4D /* 1.jpg */; };
+		D5308F1A2411061800A3FA4D /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308F162411061800A3FA4D /* IGLDropDownMenu.m */; };
+		D5308F1B2411061800A3FA4D /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308F192411061800A3FA4D /* IGLDropDownItem.m */; };
+		D5308F4D2411EDF400A3FA4D /* 波兰.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F1F2411EDF400A3FA4D /* 波兰.gif */; };
+		D5308F4E2411EDF400A3FA4D /* 列支敦士登.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F202411EDF400A3FA4D /* 列支敦士登.gif */; };
+		D5308F4F2411EDF400A3FA4D /* 英国.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F212411EDF400A3FA4D /* 英国.gif */; };
+		D5308F502411EDF400A3FA4D /* 摩纳哥.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F222411EDF400A3FA4D /* 摩纳哥.gif */; };
+		D5308F512411EDF400A3FA4D /* 瑞士.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F232411EDF400A3FA4D /* 瑞士.gif */; };
+		D5308F522411EDF400A3FA4D /* 梵蒂冈 .gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F242411EDF400A3FA4D /* 梵蒂冈 .gif */; };
+		D5308F532411EDF400A3FA4D /* 马耳他骑士团.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5308F252411EDF400A3FA4D /* 马耳他骑士团.jpg */; };
+		D5308F542411EDF400A3FA4D /* 拉脱维亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F262411EDF400A3FA4D /* 拉脱维亚.gif */; };
+		D5308F552411EDF400A3FA4D /* 乌克兰.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F272411EDF400A3FA4D /* 乌克兰.gif */; };
+		D5308F562411EDF400A3FA4D /* 法国.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F282411EDF400A3FA4D /* 法国.gif */; };
+		D5308F572411EDF400A3FA4D /* 俄罗斯.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F292411EDF400A3FA4D /* 俄罗斯.gif */; };
+		D5308F582411EDF400A3FA4D /* 保加利亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F2A2411EDF400A3FA4D /* 保加利亚.gif */; };
+		D5308F592411EDF400A3FA4D /* 圣马力诺.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F2B2411EDF400A3FA4D /* 圣马力诺.gif */; };
+		D5308F5A2411EDF400A3FA4D /* 马耳他.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F2C2411EDF400A3FA4D /* 马耳他.gif */; };
+		D5308F5B2411EDF400A3FA4D /* 意大利.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F2D2411EDF400A3FA4D /* 意大利.gif */; };
+		D5308F5C2411EDF400A3FA4D /* 斯洛文尼亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F2E2411EDF400A3FA4D /* 斯洛文尼亚.gif */; };
+		D5308F5D2411EDF400A3FA4D /* 西班牙.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F2F2411EDF400A3FA4D /* 西班牙.gif */; };
+		D5308F5E2411EDF400A3FA4D /* 葡萄牙.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F302411EDF400A3FA4D /* 葡萄牙.gif */; };
+		D5308F5F2411EDF400A3FA4D /* 德国.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F312411EDF400A3FA4D /* 德国.gif */; };
+		D5308F602411EDF400A3FA4D /* 芬兰.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F322411EDF400A3FA4D /* 芬兰.gif */; };
+		D5308F612411EDF400A3FA4D /* 丹麦.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F332411EDF400A3FA4D /* 丹麦.gif */; };
+		D5308F622411EDF400A3FA4D /* 塞尔维亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F342411EDF400A3FA4D /* 塞尔维亚.gif */; };
+		D5308F632411EDF400A3FA4D /* 安道尔.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F352411EDF400A3FA4D /* 安道尔.gif */; };
+		D5308F642411EDF400A3FA4D /* 比利时.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F362411EDF400A3FA4D /* 比利时.gif */; };
+		D5308F652411EDF400A3FA4D /* 阿尔巴尼亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F372411EDF400A3FA4D /* 阿尔巴尼亚.gif */; };
+		D5308F662411EDF400A3FA4D /* 爱沙尼亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F382411EDF400A3FA4D /* 爱沙尼亚.gif */; };
+		D5308F672411EDF400A3FA4D /* 瑞典.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F392411EDF400A3FA4D /* 瑞典.gif */; };
+		D5308F682411EDF400A3FA4D /* 斯洛伐克.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F3A2411EDF400A3FA4D /* 斯洛伐克.gif */; };
+		D5308F692411EDF400A3FA4D /* 马其顿.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F3B2411EDF400A3FA4D /* 马其顿.gif */; };
+		D5308F6A2411EDF400A3FA4D /* 黑山.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5308F3C2411EDF400A3FA4D /* 黑山.jpg */; };
+		D5308F6B2411EDF400A3FA4D /* 希腊.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F3D2411EDF400A3FA4D /* 希腊.gif */; };
+		D5308F6C2411EDF400A3FA4D /* 奥地利.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F3E2411EDF400A3FA4D /* 奥地利.gif */; };
+		D5308F6D2411EDF400A3FA4D /* 摩尔多瓦.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F3F2411EDF400A3FA4D /* 摩尔多瓦.gif */; };
+		D5308F6E2411EDF400A3FA4D /* 罗马尼亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F402411EDF400A3FA4D /* 罗马尼亚.gif */; };
+		D5308F6F2411EDF400A3FA4D /* 荷兰.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F412411EDF400A3FA4D /* 荷兰.gif */; };
+		D5308F702411EDF400A3FA4D /* 波斯尼亚和 黑塞哥维那.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F422411EDF400A3FA4D /* 波斯尼亚和 黑塞哥维那.gif */; };
+		D5308F712411EDF400A3FA4D /* 白俄罗斯.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F432411EDF400A3FA4D /* 白俄罗斯.gif */; };
+		D5308F722411EDF400A3FA4D /* 挪威.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F442411EDF400A3FA4D /* 挪威.gif */; };
+		D5308F732411EDF400A3FA4D /* 冰岛.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F452411EDF400A3FA4D /* 冰岛.gif */; };
+		D5308F742411EDF400A3FA4D /* 克罗地亚.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F462411EDF400A3FA4D /* 克罗地亚.gif */; };
+		D5308F752411EDF400A3FA4D /* 欧盟.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5308F472411EDF400A3FA4D /* 欧盟.jpg */; };
+		D5308F762411EDF400A3FA4D /* 匈牙利.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F482411EDF400A3FA4D /* 匈牙利.gif */; };
+		D5308F772411EDF400A3FA4D /* 立陶宛.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F492411EDF400A3FA4D /* 立陶宛.gif */; };
+		D5308F782411EDF400A3FA4D /* 卢森堡.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F4A2411EDF400A3FA4D /* 卢森堡.gif */; };
+		D5308F792411EDF400A3FA4D /* 捷克.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F4B2411EDF400A3FA4D /* 捷克.gif */; };
+		D5308F7A2411EDF400A3FA4D /* 爱尔兰.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5308F4C2411EDF400A3FA4D /* 爱尔兰.gif */; };
+		D5308F7D2411EEE500A3FA4D /* ZSBFIleManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308F7C2411EEE500A3FA4D /* ZSBFIleManger.m */; };
+		D5308F802411F83100A3FA4D /* ZSBListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308F7F2411F83100A3FA4D /* ZSBListViewController.m */; };
+		D5308F842411FFB500A3FA4D /* ZSBListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308F832411FFB500A3FA4D /* ZSBListTableViewCell.m */; };
+		D541B00024121FC00085A27B /* ZSBAiiCountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D541AFFF24121FC00085A27B /* ZSBAiiCountryViewController.m */; };
+		D541B004241226FA0085A27B /* jsonData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D541B003241226FA0085A27B /* jsonData.plist */; };
+		D541B00724123D290085A27B /* ZSBDetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D541B00624123D290085A27B /* ZSBDetialViewController.m */; };
+		D541B01B241255490085A27B /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B014241255480085A27B /* 6.jpg */; };
+		D541B01D241255490085A27B /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B016241255480085A27B /* 4.jpg */; };
+		D541B01E241255490085A27B /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B017241255480085A27B /* 5.jpg */; };
+		D541B01F241255490085A27B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B018241255480085A27B /* 3.jpg */; };
+		D541B021241255490085A27B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B01A241255490085A27B /* 2.jpg */; };
+		D541B024241256750085A27B /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B022241256740085A27B /* 9.jpg */; };
+		D541B025241256750085A27B /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B023241256740085A27B /* 10.jpg */; };
+		D541B0272412575B0085A27B /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0262412575B0085A27B /* 7.jpg */; };
+		D541B029241257610085A27B /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B028241257610085A27B /* 8.jpg */; };
+		D541B02B2412577C0085A27B /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B02A2412577C0085A27B /* 11.jpg */; };
+		D541B03624125CE50085A27B /* wode.png in Resources */ = {isa = PBXBuildFile; fileRef = D541B03524125CE50085A27B /* wode.png */; };
+		D541B071241624630085A27B /* UIViewController+XLSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D541B06D241624630085A27B /* UIViewController+XLSlideMenu.m */; };
+		D541B072241624630085A27B /* XLSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D541B06E241624630085A27B /* XLSlideMenu.m */; };
+		D541B078241625C80085A27B /* ZSBLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B077241625C80085A27B /* ZSBLeftViewController.swift */; };
+		D541B07A241628A90085A27B /* ZSBLeftCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B079241628A90085A27B /* ZSBLeftCellTableViewCell.swift */; };
+		D541B081241630E50085A27B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B080241630E50085A27B /* UIColor.swift */; };
+		D541B083241631940085A27B /* ZSBAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B082241631940085A27B /* ZSBAboutViewController.swift */; };
+		D541B085241631A30085A27B /* ZSBPrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B084241631A30085A27B /* ZSBPrivateViewController.swift */; };
+		D541B087241631B90085A27B /* ZSBmyLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B086241631B90085A27B /* ZSBmyLikeViewController.swift */; };
+		D541B08924163EC20085A27B /* ZSBMyLikeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B08824163EC20085A27B /* ZSBMyLikeListCell.swift */; };
+		D541B08B241650C60085A27B /* gengduo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D541B08A241650C60085A27B /* gengduo@2x.png */; };
+		D541B08D241661420085A27B /* ZSBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B08C241661420085A27B /* ZSBLoginViewController.swift */; };
+		D541B08F24173FD90085A27B /* ZSBSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B08E24173FD90085A27B /* ZSBSearchViewController.swift */; };
+		D541B091241746CE0085A27B /* ZSBSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B090241746CE0085A27B /* ZSBSearchCell.swift */; };
+		D541B093241772610085A27B /* ZSBPrivateAlterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B092241772610085A27B /* ZSBPrivateAlterView.swift */; };
+		D553A39B241B6F530036768F /* ZSBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D553A39A241B6F530036768F /* ZSBMainViewController.m */; };
+		D553A3A0241B76FD0036768F /* ZSBregisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A39F241B76FD0036768F /* ZSBregisterViewController.swift */; };
+		D553A3A2241B8A790036768F /* ZSBTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3A1241B8A790036768F /* ZSBTool.swift */; };
+		D553A3A4241B8ADB0036768F /* MyWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3A3241B8ADB0036768F /* MyWebViewViewController.swift */; };
+		D553A3A6241B90970036768F /* BaseNAVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3A5241B90970036768F /* BaseNAVViewController.swift */; };
+		D553A3AA241F20060036768F /* ZSBCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3A9241F20060036768F /* ZSBCommentsViewController.swift */; };
+		D553A3AC241F2BC50036768F /* ZSBCommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3AB241F2BC50036768F /* ZSBCommentsCell.swift */; };
+		D553A3AE241F482B0036768F /* headURl.plist in Resources */ = {isa = PBXBuildFile; fileRef = D553A3AD241F482B0036768F /* headURl.plist */; };
+		D553A3B0241F4B860036768F /* comment.plist in Resources */ = {isa = PBXBuildFile; fileRef = D553A3AF241F4B860036768F /* comment.plist */; };
+		D553A3B2241F56F20036768F /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3B1241F56F20036768F /* CommentView.swift */; };
+		D553A3B4241F66600036768F /* MBLoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3B3241F66600036768F /* MBLoding.swift */; };
+		D553A3B8241F74830036768F /* ZSBTogetherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3B7241F74830036768F /* ZSBTogetherViewController.swift */; };
+		D553A3BA241F788E0036768F /* ZSBCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3B9241F788E0036768F /* ZSBCarView.swift */; };
+		D553A3BC241F7C810036768F /* firend.plist in Resources */ = {isa = PBXBuildFile; fileRef = D553A3BB241F7C810036768F /* firend.plist */; };
+		D553A3BE24207A660036768F /* ZSBMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3BD24207A660036768F /* ZSBMyViewController.swift */; };
+		D553A3C2242080F30036768F /* ZSBMyheadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3C1242080F30036768F /* ZSBMyheadCell.swift */; };
+		D553A3C4242083FA0036768F /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D553A3C3242083FA0036768F /* bg@2x.png */; };
+		D553A3CA242095BE0036768F /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D553A3C7242095BD0036768F /* like@2x.png */; };
+		D553A3CB242095BE0036768F /* commnet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D553A3C8242095BD0036768F /* commnet@2x.png */; };
+		D553A3CC242095BE0036768F /* wenzhang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D553A3C9242095BD0036768F /* wenzhang@2x.png */; };
+		D553A3CE242097830036768F /* head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D553A3CD242097830036768F /* head@2x.png */; };
+		D553A3D0242098BE0036768F /* ZSBMyCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3CF242098BE0036768F /* ZSBMyCommentViewController.swift */; };
+		D553A3D32420A8150036768F /* SelectPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D553A3D22420A8150036768F /* SelectPhotoManager.m */; };
+		D553A3D52420AC2A0036768F /* ZSBchangeNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553A3D42420AC2A0036768F /* ZSBchangeNameViewController.swift */; };
+		D59E520A2419F667003AC909 /* ZSBTraveLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E52092419F667003AC909 /* ZSBTraveLineViewController.swift */; };
+		D59E520C2419F689003AC909 /* ZSBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E520B2419F689003AC909 /* ZSBBaseViewController.swift */; };
+		D59E520E2419F857003AC909 /* ZSBImageBig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E520D2419F857003AC909 /* ZSBImageBig.swift */; };
+		D5A53382241B268900464E85 /* ZSBTravelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A53381241B268900464E85 /* ZSBTravelListViewController.swift */; };
+		D5A53384241B27D200464E85 /* ZSBTravelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A53383241B27D200464E85 /* ZSBTravelListCell.swift */; };
+		D5A5338A241B2DBF00464E85 /* XLSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A53389241B2DBF00464E85 /* XLSphereView.m */; };
+		D5A5338C241B3A9800464E85 /* fabu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A5338B241B3A9800464E85 /* fabu@2x.png */; };
+		D5A5338E241B3B2200464E85 /* ZSBFabuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A5338D241B3B2200464E85 /* ZSBFabuViewController.swift */; };
+		D5A53390241B3F8D00464E85 /* tianjiatupian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A5338F241B3F8D00464E85 /* tianjiatupian@2x.png */; };
+		D5A53392241B45FC00464E85 /* ZSBPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A53391241B45FC00464E85 /* ZSBPlaceHolder.swift */; };
+		D5A53394241B55F000464E85 /* youji.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5A53393241B55F000464E85 /* youji.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5308ED62410FE2700A3FA4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5308EB22410FE2500A3FA4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5308EB92410FE2500A3FA4D;
+			remoteInfo = EuropeanTravel;
+		};
+		D5308EE12410FE2700A3FA4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5308EB22410FE2500A3FA4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5308EB92410FE2500A3FA4D;
+			remoteInfo = EuropeanTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1459A7454B8C780C3F82916F /* Pods-EuropeanTravelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuropeanTravelUITests.debug.xcconfig"; path = "Target Support Files/Pods-EuropeanTravelUITests/Pods-EuropeanTravelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FD77651EED0D0F5C3839CF8 /* Pods_EuropeanTravelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuropeanTravelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		289C6DF3EDE708698142078E /* Pods-EuropeanTravelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuropeanTravelUITests.release.xcconfig"; path = "Target Support Files/Pods-EuropeanTravelUITests/Pods-EuropeanTravelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9AD82122587983BF7D81AB9B /* Pods-EuropeanTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuropeanTravel.debug.xcconfig"; path = "Target Support Files/Pods-EuropeanTravel/Pods-EuropeanTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		AF714D61341025B0CB1563C5 /* Pods-EuropeanTravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuropeanTravelTests.debug.xcconfig"; path = "Target Support Files/Pods-EuropeanTravelTests/Pods-EuropeanTravelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B75D969A57EF5A9F28A9348C /* Pods_EuropeanTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuropeanTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC3EEEC6D5AC9858ED87CBF /* Pods-EuropeanTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuropeanTravel.release.xcconfig"; path = "Target Support Files/Pods-EuropeanTravel/Pods-EuropeanTravel.release.xcconfig"; sourceTree = "<group>"; };
+		D5308EBA2410FE2500A3FA4D /* 欧洲旅行锦囊.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "欧洲旅行锦囊.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5308EBD2410FE2500A3FA4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5308EBE2410FE2500A3FA4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5308EC32410FE2500A3FA4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5308EC42410FE2500A3FA4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5308EC72410FE2500A3FA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5308EC92410FE2700A3FA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5308ECC2410FE2700A3FA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5308ECE2410FE2700A3FA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5308ECF2410FE2700A3FA4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5308ED52410FE2700A3FA4D /* EuropeanTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuropeanTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5308ED92410FE2700A3FA4D /* EuropeanTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EuropeanTravelTests.m; sourceTree = "<group>"; };
+		D5308EDB2410FE2700A3FA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5308EE02410FE2700A3FA4D /* EuropeanTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuropeanTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5308EE42410FE2700A3FA4D /* EuropeanTravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EuropeanTravelUITests.m; sourceTree = "<group>"; };
+		D5308EE62410FE2700A3FA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5308EF42411007900A3FA4D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D5308F162411061800A3FA4D /* IGLDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownMenu.m; sourceTree = "<group>"; };
+		D5308F172411061800A3FA4D /* IGLDropDownItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownItem.h; sourceTree = "<group>"; };
+		D5308F182411061800A3FA4D /* IGLDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownMenu.h; sourceTree = "<group>"; };
+		D5308F192411061800A3FA4D /* IGLDropDownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownItem.m; sourceTree = "<group>"; };
+		D5308F1C2411068E00A3FA4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D5308F1F2411EDF400A3FA4D /* 波兰.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "波兰.gif"; sourceTree = "<group>"; };
+		D5308F202411EDF400A3FA4D /* 列支敦士登.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "列支敦士登.gif"; sourceTree = "<group>"; };
+		D5308F212411EDF400A3FA4D /* 英国.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "英国.gif"; sourceTree = "<group>"; };
+		D5308F222411EDF400A3FA4D /* 摩纳哥.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "摩纳哥.gif"; sourceTree = "<group>"; };
+		D5308F232411EDF400A3FA4D /* 瑞士.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "瑞士.gif"; sourceTree = "<group>"; };
+		D5308F242411EDF400A3FA4D /* 梵蒂冈 .gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "梵蒂冈 .gif"; sourceTree = "<group>"; };
+		D5308F252411EDF400A3FA4D /* 马耳他骑士团.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马耳他骑士团.jpg"; sourceTree = "<group>"; };
+		D5308F262411EDF400A3FA4D /* 拉脱维亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "拉脱维亚.gif"; sourceTree = "<group>"; };
+		D5308F272411EDF400A3FA4D /* 乌克兰.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "乌克兰.gif"; sourceTree = "<group>"; };
+		D5308F282411EDF400A3FA4D /* 法国.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "法国.gif"; sourceTree = "<group>"; };
+		D5308F292411EDF400A3FA4D /* 俄罗斯.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "俄罗斯.gif"; sourceTree = "<group>"; };
+		D5308F2A2411EDF400A3FA4D /* 保加利亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "保加利亚.gif"; sourceTree = "<group>"; };
+		D5308F2B2411EDF400A3FA4D /* 圣马力诺.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "圣马力诺.gif"; sourceTree = "<group>"; };
+		D5308F2C2411EDF400A3FA4D /* 马耳他.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "马耳他.gif"; sourceTree = "<group>"; };
+		D5308F2D2411EDF400A3FA4D /* 意大利.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "意大利.gif"; sourceTree = "<group>"; };
+		D5308F2E2411EDF400A3FA4D /* 斯洛文尼亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "斯洛文尼亚.gif"; sourceTree = "<group>"; };
+		D5308F2F2411EDF400A3FA4D /* 西班牙.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "西班牙.gif"; sourceTree = "<group>"; };
+		D5308F302411EDF400A3FA4D /* 葡萄牙.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "葡萄牙.gif"; sourceTree = "<group>"; };
+		D5308F312411EDF400A3FA4D /* 德国.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "德国.gif"; sourceTree = "<group>"; };
+		D5308F322411EDF400A3FA4D /* 芬兰.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "芬兰.gif"; sourceTree = "<group>"; };
+		D5308F332411EDF400A3FA4D /* 丹麦.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "丹麦.gif"; sourceTree = "<group>"; };
+		D5308F342411EDF400A3FA4D /* 塞尔维亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "塞尔维亚.gif"; sourceTree = "<group>"; };
+		D5308F352411EDF400A3FA4D /* 安道尔.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "安道尔.gif"; sourceTree = "<group>"; };
+		D5308F362411EDF400A3FA4D /* 比利时.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "比利时.gif"; sourceTree = "<group>"; };
+		D5308F372411EDF400A3FA4D /* 阿尔巴尼亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "阿尔巴尼亚.gif"; sourceTree = "<group>"; };
+		D5308F382411EDF400A3FA4D /* 爱沙尼亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "爱沙尼亚.gif"; sourceTree = "<group>"; };
+		D5308F392411EDF400A3FA4D /* 瑞典.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "瑞典.gif"; sourceTree = "<group>"; };
+		D5308F3A2411EDF400A3FA4D /* 斯洛伐克.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "斯洛伐克.gif"; sourceTree = "<group>"; };
+		D5308F3B2411EDF400A3FA4D /* 马其顿.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "马其顿.gif"; sourceTree = "<group>"; };
+		D5308F3C2411EDF400A3FA4D /* 黑山.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑山.jpg"; sourceTree = "<group>"; };
+		D5308F3D2411EDF400A3FA4D /* 希腊.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "希腊.gif"; sourceTree = "<group>"; };
+		D5308F3E2411EDF400A3FA4D /* 奥地利.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "奥地利.gif"; sourceTree = "<group>"; };
+		D5308F3F2411EDF400A3FA4D /* 摩尔多瓦.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "摩尔多瓦.gif"; sourceTree = "<group>"; };
+		D5308F402411EDF400A3FA4D /* 罗马尼亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "罗马尼亚.gif"; sourceTree = "<group>"; };
+		D5308F412411EDF400A3FA4D /* 荷兰.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "荷兰.gif"; sourceTree = "<group>"; };
+		D5308F422411EDF400A3FA4D /* 波斯尼亚和 黑塞哥维那.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "波斯尼亚和 黑塞哥维那.gif"; sourceTree = "<group>"; };
+		D5308F432411EDF400A3FA4D /* 白俄罗斯.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "白俄罗斯.gif"; sourceTree = "<group>"; };
+		D5308F442411EDF400A3FA4D /* 挪威.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "挪威.gif"; sourceTree = "<group>"; };
+		D5308F452411EDF400A3FA4D /* 冰岛.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "冰岛.gif"; sourceTree = "<group>"; };
+		D5308F462411EDF400A3FA4D /* 克罗地亚.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "克罗地亚.gif"; sourceTree = "<group>"; };
+		D5308F472411EDF400A3FA4D /* 欧盟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧盟.jpg"; sourceTree = "<group>"; };
+		D5308F482411EDF400A3FA4D /* 匈牙利.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "匈牙利.gif"; sourceTree = "<group>"; };
+		D5308F492411EDF400A3FA4D /* 立陶宛.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "立陶宛.gif"; sourceTree = "<group>"; };
+		D5308F4A2411EDF400A3FA4D /* 卢森堡.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "卢森堡.gif"; sourceTree = "<group>"; };
+		D5308F4B2411EDF400A3FA4D /* 捷克.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "捷克.gif"; sourceTree = "<group>"; };
+		D5308F4C2411EDF400A3FA4D /* 爱尔兰.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "爱尔兰.gif"; sourceTree = "<group>"; };
+		D5308F7B2411EEE500A3FA4D /* ZSBFIleManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSBFIleManger.h; sourceTree = "<group>"; };
+		D5308F7C2411EEE500A3FA4D /* ZSBFIleManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSBFIleManger.m; sourceTree = "<group>"; };
+		D5308F7E2411F83100A3FA4D /* ZSBListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSBListViewController.h; sourceTree = "<group>"; };
+		D5308F7F2411F83100A3FA4D /* ZSBListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSBListViewController.m; sourceTree = "<group>"; };
+		D5308F822411FFB500A3FA4D /* ZSBListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSBListTableViewCell.h; sourceTree = "<group>"; };
+		D5308F832411FFB500A3FA4D /* ZSBListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSBListTableViewCell.m; sourceTree = "<group>"; };
+		D541AFFE24121FC00085A27B /* ZSBAiiCountryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSBAiiCountryViewController.h; sourceTree = "<group>"; };
+		D541AFFF24121FC00085A27B /* ZSBAiiCountryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSBAiiCountryViewController.m; sourceTree = "<group>"; };
+		D541B003241226FA0085A27B /* jsonData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = jsonData.plist; sourceTree = "<group>"; };
+		D541B00524123D290085A27B /* ZSBDetialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSBDetialViewController.h; sourceTree = "<group>"; };
+		D541B00624123D290085A27B /* ZSBDetialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSBDetialViewController.m; sourceTree = "<group>"; };
+		D541B014241255480085A27B /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		D541B016241255480085A27B /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D541B017241255480085A27B /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		D541B018241255480085A27B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		D541B01A241255490085A27B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D541B022241256740085A27B /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		D541B023241256740085A27B /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		D541B0262412575B0085A27B /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		D541B028241257610085A27B /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		D541B02A2412577C0085A27B /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		D541B03524125CE50085A27B /* wode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wode.png; sourceTree = "<group>"; };
+		D541B06D241624630085A27B /* UIViewController+XLSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLSlideMenu.m"; sourceTree = "<group>"; };
+		D541B06E241624630085A27B /* XLSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideMenu.m; sourceTree = "<group>"; };
+		D541B06F241624630085A27B /* UIViewController+XLSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLSlideMenu.h"; sourceTree = "<group>"; };
+		D541B070241624630085A27B /* XLSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideMenu.h; sourceTree = "<group>"; };
+		D541B076241625C70085A27B /* EuropeanTravel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EuropeanTravel-Bridging-Header.h"; sourceTree = "<group>"; };
+		D541B077241625C80085A27B /* ZSBLeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBLeftViewController.swift; sourceTree = "<group>"; };
+		D541B079241628A90085A27B /* ZSBLeftCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBLeftCellTableViewCell.swift; sourceTree = "<group>"; };
+		D541B080241630E50085A27B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D541B082241631940085A27B /* ZSBAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBAboutViewController.swift; sourceTree = "<group>"; };
+		D541B084241631A30085A27B /* ZSBPrivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBPrivateViewController.swift; sourceTree = "<group>"; };
+		D541B086241631B90085A27B /* ZSBmyLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBmyLikeViewController.swift; sourceTree = "<group>"; };
+		D541B08824163EC20085A27B /* ZSBMyLikeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBMyLikeListCell.swift; sourceTree = "<group>"; };
+		D541B08A241650C60085A27B /* gengduo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gengduo@2x.png"; sourceTree = "<group>"; };
+		D541B08C241661420085A27B /* ZSBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBLoginViewController.swift; sourceTree = "<group>"; };
+		D541B08E24173FD90085A27B /* ZSBSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBSearchViewController.swift; sourceTree = "<group>"; };
+		D541B090241746CE0085A27B /* ZSBSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBSearchCell.swift; sourceTree = "<group>"; };
+		D541B092241772610085A27B /* ZSBPrivateAlterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBPrivateAlterView.swift; sourceTree = "<group>"; };
+		D553A399241B6F530036768F /* ZSBMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZSBMainViewController.h; sourceTree = "<group>"; };
+		D553A39A241B6F530036768F /* ZSBMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSBMainViewController.m; sourceTree = "<group>"; };
+		D553A39F241B76FD0036768F /* ZSBregisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBregisterViewController.swift; sourceTree = "<group>"; };
+		D553A3A1241B8A790036768F /* ZSBTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBTool.swift; sourceTree = "<group>"; };
+		D553A3A3241B8ADB0036768F /* MyWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebViewViewController.swift; sourceTree = "<group>"; };
+		D553A3A5241B90970036768F /* BaseNAVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNAVViewController.swift; sourceTree = "<group>"; };
+		D553A3A9241F20060036768F /* ZSBCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBCommentsViewController.swift; sourceTree = "<group>"; };
+		D553A3AB241F2BC50036768F /* ZSBCommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBCommentsCell.swift; sourceTree = "<group>"; };
+		D553A3AD241F482B0036768F /* headURl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = headURl.plist; sourceTree = "<group>"; };
+		D553A3AF241F4B860036768F /* comment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = comment.plist; sourceTree = "<group>"; };
+		D553A3B1241F56F20036768F /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		D553A3B3241F66600036768F /* MBLoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBLoding.swift; sourceTree = "<group>"; };
+		D553A3B7241F74830036768F /* ZSBTogetherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBTogetherViewController.swift; sourceTree = "<group>"; };
+		D553A3B9241F788E0036768F /* ZSBCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBCarView.swift; sourceTree = "<group>"; };
+		D553A3BB241F7C810036768F /* firend.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = firend.plist; sourceTree = "<group>"; };
+		D553A3BD24207A660036768F /* ZSBMyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBMyViewController.swift; sourceTree = "<group>"; };
+		D553A3C1242080F30036768F /* ZSBMyheadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSBMyheadCell.swift; sourceTree = "<group>"; };
+		D553A3C3242083FA0036768F /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		D553A3C7242095BD0036768F /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		D553A3C8242095BD0036768F /* commnet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "commnet@2x.png"; sourceTree = "<group>"; };
+		D553A3C9242095BD0036768F /* wenzhang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wenzhang@2x.png"; sourceTree = "<group>"; };
+		D553A3CD242097830036768F /* head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head@2x.png"; sourceTree = "<group>"; };
+		D553A3CF242098BE0036768F /* ZSBMyCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBMyCommentViewController.swift; sourceTree = "<group>"; };
+		D553A3D12420A8150036768F /* SelectPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPhotoManager.h; sourceTree = "<group>"; };
+		D553A3D22420A8150036768F /* SelectPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPhotoManager.m; sourceTree = "<group>"; };
+		D553A3D42420AC2A0036768F /* ZSBchangeNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBchangeNameViewController.swift; sourceTree = "<group>"; };
+		D59E52092419F667003AC909 /* ZSBTraveLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBTraveLineViewController.swift; sourceTree = "<group>"; };
+		D59E520B2419F689003AC909 /* ZSBBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBBaseViewController.swift; sourceTree = "<group>"; };
+		D59E520D2419F857003AC909 /* ZSBImageBig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBImageBig.swift; sourceTree = "<group>"; };
+		D5A53381241B268900464E85 /* ZSBTravelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBTravelListViewController.swift; sourceTree = "<group>"; };
+		D5A53383241B27D200464E85 /* ZSBTravelListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBTravelListCell.swift; sourceTree = "<group>"; };
+		D5A53386241B2DBF00464E85 /* XLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMatrix.h; sourceTree = "<group>"; };
+		D5A53387241B2DBF00464E85 /* XLPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPoint.h; sourceTree = "<group>"; };
+		D5A53388241B2DBF00464E85 /* XLSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSphereView.h; sourceTree = "<group>"; };
+		D5A53389241B2DBF00464E85 /* XLSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSphereView.m; sourceTree = "<group>"; };
+		D5A5338B241B3A9800464E85 /* fabu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fabu@2x.png"; sourceTree = "<group>"; };
+		D5A5338D241B3B2200464E85 /* ZSBFabuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBFabuViewController.swift; sourceTree = "<group>"; };
+		D5A5338F241B3F8D00464E85 /* tianjiatupian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tianjiatupian@2x.png"; sourceTree = "<group>"; };
+		D5A53391241B45FC00464E85 /* ZSBPlaceHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSBPlaceHolder.swift; sourceTree = "<group>"; };
+		D5A53393241B55F000464E85 /* youji.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = youji.plist; sourceTree = "<group>"; };
+		E42B4D75BB0B3982864D28C0 /* Pods-EuropeanTravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuropeanTravelTests.release.xcconfig"; path = "Target Support Files/Pods-EuropeanTravelTests/Pods-EuropeanTravelTests.release.xcconfig"; sourceTree = "<group>"; };
+		E46ED12742560FF5F3D119CE /* Pods_EuropeanTravelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuropeanTravelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5308EB72410FE2500A3FA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692CDE3EA5305BC77FD68225 /* Pods_EuropeanTravel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308ED22410FE2700A3FA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2CAF36D65229633D3D5AD6 /* Pods_EuropeanTravelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308EDD2410FE2700A3FA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A1412594316DDC14D3A8A2 /* Pods_EuropeanTravelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC3E1AD08E9BAF2E34C546A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD82122587983BF7D81AB9B /* Pods-EuropeanTravel.debug.xcconfig */,
+				BBC3EEEC6D5AC9858ED87CBF /* Pods-EuropeanTravel.release.xcconfig */,
+				AF714D61341025B0CB1563C5 /* Pods-EuropeanTravelTests.debug.xcconfig */,
+				E42B4D75BB0B3982864D28C0 /* Pods-EuropeanTravelTests.release.xcconfig */,
+				1459A7454B8C780C3F82916F /* Pods-EuropeanTravelUITests.debug.xcconfig */,
+				289C6DF3EDE708698142078E /* Pods-EuropeanTravelUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89480EDEA914A590528B5009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75D969A57EF5A9F28A9348C /* Pods_EuropeanTravel.framework */,
+				E46ED12742560FF5F3D119CE /* Pods_EuropeanTravelTests.framework */,
+				1FD77651EED0D0F5C3839CF8 /* Pods_EuropeanTravelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5308EB12410FE2500A3FA4D = {
+			isa = PBXGroup;
+			children = (
+				D5308EBC2410FE2500A3FA4D /* EuropeanTravel */,
+				D5308ED82410FE2700A3FA4D /* EuropeanTravelTests */,
+				D5308EE32410FE2700A3FA4D /* EuropeanTravelUITests */,
+				D5308EBB2410FE2500A3FA4D /* Products */,
+				0BC3E1AD08E9BAF2E34C546A /* Pods */,
+				89480EDEA914A590528B5009 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5308EBB2410FE2500A3FA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5308EBA2410FE2500A3FA4D /* 欧洲旅行锦囊.app */,
+				D5308ED52410FE2700A3FA4D /* EuropeanTravelTests.xctest */,
+				D5308EE02410FE2700A3FA4D /* EuropeanTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5308EBC2410FE2500A3FA4D /* EuropeanTravel */ = {
+			isa = PBXGroup;
+			children = (
+				D5308F812411FF7F00A3FA4D /* Class */,
+				D5308F142411060600A3FA4D /* libs */,
+				D5308EBD2410FE2500A3FA4D /* AppDelegate.h */,
+				D5308EBE2410FE2500A3FA4D /* AppDelegate.m */,
+				D5308EC62410FE2500A3FA4D /* Main.storyboard */,
+				D5308F1D2411073000A3FA4D /* source */,
+				D5308EC92410FE2700A3FA4D /* Assets.xcassets */,
+				D553A3C7242095BD0036768F /* like@2x.png */,
+				D553A3C8242095BD0036768F /* commnet@2x.png */,
+				D553A3C9242095BD0036768F /* wenzhang@2x.png */,
+				D5308ECB2410FE2700A3FA4D /* LaunchScreen.storyboard */,
+				D5308ECE2410FE2700A3FA4D /* Info.plist */,
+				D5308ECF2410FE2700A3FA4D /* main.m */,
+				D5308F1C2411068E00A3FA4D /* PrefixHeader.pch */,
+			);
+			path = EuropeanTravel;
+			sourceTree = "<group>";
+		};
+		D5308ED82410FE2700A3FA4D /* EuropeanTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5308ED92410FE2700A3FA4D /* EuropeanTravelTests.m */,
+				D5308EDB2410FE2700A3FA4D /* Info.plist */,
+			);
+			path = EuropeanTravelTests;
+			sourceTree = "<group>";
+		};
+		D5308EE32410FE2700A3FA4D /* EuropeanTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5308EE42410FE2700A3FA4D /* EuropeanTravelUITests.m */,
+				D5308EE62410FE2700A3FA4D /* Info.plist */,
+			);
+			path = EuropeanTravelUITests;
+			sourceTree = "<group>";
+		};
+		D5308F142411060600A3FA4D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				D553A3D12420A8150036768F /* SelectPhotoManager.h */,
+				D553A3D22420A8150036768F /* SelectPhotoManager.m */,
+				D5A53385241B2DB000464E85 /* earthView */,
+				D5A53386241B2DBF00464E85 /* XLMatrix.h */,
+				D5A53387241B2DBF00464E85 /* XLPoint.h */,
+				D5A53388241B2DBF00464E85 /* XLSphereView.h */,
+				D5A53389241B2DBF00464E85 /* XLSphereView.m */,
+				D541B06C241624630085A27B /* XLSlideMenu */,
+				D5308F152411061800A3FA4D /* IGLDropDownMenu */,
+				D5308F7B2411EEE500A3FA4D /* ZSBFIleManger.h */,
+				D5308F7C2411EEE500A3FA4D /* ZSBFIleManger.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		D5308F152411061800A3FA4D /* IGLDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D5308F162411061800A3FA4D /* IGLDropDownMenu.m */,
+				D5308F172411061800A3FA4D /* IGLDropDownItem.h */,
+				D5308F182411061800A3FA4D /* IGLDropDownMenu.h */,
+				D5308F192411061800A3FA4D /* IGLDropDownItem.m */,
+			);
+			path = IGLDropDownMenu;
+			sourceTree = "<group>";
+		};
+		D5308F1D2411073000A3FA4D /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D5308F1E2411EDF400A3FA4D /* flatIcon */,
+				D5308EF42411007900A3FA4D /* 1.jpg */,
+				D541B08A241650C60085A27B /* gengduo@2x.png */,
+				D553A3C3242083FA0036768F /* bg@2x.png */,
+				D541B01A241255490085A27B /* 2.jpg */,
+				D553A3CD242097830036768F /* head@2x.png */,
+				D5A5338F241B3F8D00464E85 /* tianjiatupian@2x.png */,
+				D541B03524125CE50085A27B /* wode.png */,
+				D541B0262412575B0085A27B /* 7.jpg */,
+				D541B018241255480085A27B /* 3.jpg */,
+				D541B016241255480085A27B /* 4.jpg */,
+				D541B02A2412577C0085A27B /* 11.jpg */,
+				D541B028241257610085A27B /* 8.jpg */,
+				D541B017241255480085A27B /* 5.jpg */,
+				D541B014241255480085A27B /* 6.jpg */,
+				D541B022241256740085A27B /* 9.jpg */,
+				D541B023241256740085A27B /* 10.jpg */,
+				D541B003241226FA0085A27B /* jsonData.plist */,
+				D5A53393241B55F000464E85 /* youji.plist */,
+				D553A3AD241F482B0036768F /* headURl.plist */,
+				D553A3AF241F4B860036768F /* comment.plist */,
+				D553A3BB241F7C810036768F /* firend.plist */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		D5308F1E2411EDF400A3FA4D /* flatIcon */ = {
+			isa = PBXGroup;
+			children = (
+				D5A5338B241B3A9800464E85 /* fabu@2x.png */,
+				D5308F1F2411EDF400A3FA4D /* 波兰.gif */,
+				D5308F202411EDF400A3FA4D /* 列支敦士登.gif */,
+				D5308F212411EDF400A3FA4D /* 英国.gif */,
+				D5308F222411EDF400A3FA4D /* 摩纳哥.gif */,
+				D5308F232411EDF400A3FA4D /* 瑞士.gif */,
+				D5308F242411EDF400A3FA4D /* 梵蒂冈 .gif */,
+				D5308F252411EDF400A3FA4D /* 马耳他骑士团.jpg */,
+				D5308F262411EDF400A3FA4D /* 拉脱维亚.gif */,
+				D5308F272411EDF400A3FA4D /* 乌克兰.gif */,
+				D5308F282411EDF400A3FA4D /* 法国.gif */,
+				D5308F292411EDF400A3FA4D /* 俄罗斯.gif */,
+				D5308F2A2411EDF400A3FA4D /* 保加利亚.gif */,
+				D5308F2B2411EDF400A3FA4D /* 圣马力诺.gif */,
+				D5308F2C2411EDF400A3FA4D /* 马耳他.gif */,
+				D5308F2D2411EDF400A3FA4D /* 意大利.gif */,
+				D5308F2E2411EDF400A3FA4D /* 斯洛文尼亚.gif */,
+				D5308F2F2411EDF400A3FA4D /* 西班牙.gif */,
+				D5308F302411EDF400A3FA4D /* 葡萄牙.gif */,
+				D5308F312411EDF400A3FA4D /* 德国.gif */,
+				D5308F322411EDF400A3FA4D /* 芬兰.gif */,
+				D5308F332411EDF400A3FA4D /* 丹麦.gif */,
+				D5308F342411EDF400A3FA4D /* 塞尔维亚.gif */,
+				D5308F352411EDF400A3FA4D /* 安道尔.gif */,
+				D5308F362411EDF400A3FA4D /* 比利时.gif */,
+				D5308F372411EDF400A3FA4D /* 阿尔巴尼亚.gif */,
+				D5308F382411EDF400A3FA4D /* 爱沙尼亚.gif */,
+				D5308F392411EDF400A3FA4D /* 瑞典.gif */,
+				D5308F3A2411EDF400A3FA4D /* 斯洛伐克.gif */,
+				D5308F3B2411EDF400A3FA4D /* 马其顿.gif */,
+				D5308F3C2411EDF400A3FA4D /* 黑山.jpg */,
+				D5308F3D2411EDF400A3FA4D /* 希腊.gif */,
+				D5308F3E2411EDF400A3FA4D /* 奥地利.gif */,
+				D5308F3F2411EDF400A3FA4D /* 摩尔多瓦.gif */,
+				D5308F402411EDF400A3FA4D /* 罗马尼亚.gif */,
+				D5308F412411EDF400A3FA4D /* 荷兰.gif */,
+				D5308F422411EDF400A3FA4D /* 波斯尼亚和 黑塞哥维那.gif */,
+				D5308F432411EDF400A3FA4D /* 白俄罗斯.gif */,
+				D5308F442411EDF400A3FA4D /* 挪威.gif */,
+				D5308F452411EDF400A3FA4D /* 冰岛.gif */,
+				D5308F462411EDF400A3FA4D /* 克罗地亚.gif */,
+				D5308F472411EDF400A3FA4D /* 欧盟.jpg */,
+				D5308F482411EDF400A3FA4D /* 匈牙利.gif */,
+				D5308F492411EDF400A3FA4D /* 立陶宛.gif */,
+				D5308F4A2411EDF400A3FA4D /* 卢森堡.gif */,
+				D5308F4B2411EDF400A3FA4D /* 捷克.gif */,
+				D5308F4C2411EDF400A3FA4D /* 爱尔兰.gif */,
+			);
+			path = flatIcon;
+			sourceTree = "<group>";
+		};
+		D5308F812411FF7F00A3FA4D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D5308EC32410FE2500A3FA4D /* ViewController.h */,
+				D5308EC42410FE2500A3FA4D /* ViewController.m */,
+				D5308F7E2411F83100A3FA4D /* ZSBListViewController.h */,
+				D5308F7F2411F83100A3FA4D /* ZSBListViewController.m */,
+				D5308F822411FFB500A3FA4D /* ZSBListTableViewCell.h */,
+				D5308F832411FFB500A3FA4D /* ZSBListTableViewCell.m */,
+				D541AFFE24121FC00085A27B /* ZSBAiiCountryViewController.h */,
+				D541AFFF24121FC00085A27B /* ZSBAiiCountryViewController.m */,
+				D541B00524123D290085A27B /* ZSBDetialViewController.h */,
+				D541B00624123D290085A27B /* ZSBDetialViewController.m */,
+				D541B077241625C80085A27B /* ZSBLeftViewController.swift */,
+				D541B079241628A90085A27B /* ZSBLeftCellTableViewCell.swift */,
+				D541B080241630E50085A27B /* UIColor.swift */,
+				D541B082241631940085A27B /* ZSBAboutViewController.swift */,
+				D541B084241631A30085A27B /* ZSBPrivateViewController.swift */,
+				D541B086241631B90085A27B /* ZSBmyLikeViewController.swift */,
+				D541B08824163EC20085A27B /* ZSBMyLikeListCell.swift */,
+				D541B076241625C70085A27B /* EuropeanTravel-Bridging-Header.h */,
+				D541B08C241661420085A27B /* ZSBLoginViewController.swift */,
+				D541B08E24173FD90085A27B /* ZSBSearchViewController.swift */,
+				D541B090241746CE0085A27B /* ZSBSearchCell.swift */,
+				D541B092241772610085A27B /* ZSBPrivateAlterView.swift */,
+				D59E52092419F667003AC909 /* ZSBTraveLineViewController.swift */,
+				D59E520B2419F689003AC909 /* ZSBBaseViewController.swift */,
+				D59E520D2419F857003AC909 /* ZSBImageBig.swift */,
+				D5A53381241B268900464E85 /* ZSBTravelListViewController.swift */,
+				D5A53383241B27D200464E85 /* ZSBTravelListCell.swift */,
+				D5A5338D241B3B2200464E85 /* ZSBFabuViewController.swift */,
+				D5A53391241B45FC00464E85 /* ZSBPlaceHolder.swift */,
+				D553A399241B6F530036768F /* ZSBMainViewController.h */,
+				D553A39A241B6F530036768F /* ZSBMainViewController.m */,
+				D553A39F241B76FD0036768F /* ZSBregisterViewController.swift */,
+				D553A3A1241B8A790036768F /* ZSBTool.swift */,
+				D553A3A3241B8ADB0036768F /* MyWebViewViewController.swift */,
+				D553A3A5241B90970036768F /* BaseNAVViewController.swift */,
+				D553A3A9241F20060036768F /* ZSBCommentsViewController.swift */,
+				D553A3AB241F2BC50036768F /* ZSBCommentsCell.swift */,
+				D553A3B1241F56F20036768F /* CommentView.swift */,
+				D553A3B3241F66600036768F /* MBLoding.swift */,
+				D553A3B7241F74830036768F /* ZSBTogetherViewController.swift */,
+				D553A3B9241F788E0036768F /* ZSBCarView.swift */,
+				D553A3BD24207A660036768F /* ZSBMyViewController.swift */,
+				D553A3C1242080F30036768F /* ZSBMyheadCell.swift */,
+				D553A3CF242098BE0036768F /* ZSBMyCommentViewController.swift */,
+				D553A3D42420AC2A0036768F /* ZSBchangeNameViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D541B06C241624630085A27B /* XLSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D541B06D241624630085A27B /* UIViewController+XLSlideMenu.m */,
+				D541B06E241624630085A27B /* XLSlideMenu.m */,
+				D541B06F241624630085A27B /* UIViewController+XLSlideMenu.h */,
+				D541B070241624630085A27B /* XLSlideMenu.h */,
+			);
+			path = XLSlideMenu;
+			sourceTree = "<group>";
+		};
+		D5A53385241B2DB000464E85 /* earthView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = earthView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5308EB92410FE2500A3FA4D /* EuropeanTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5308EE92410FE2700A3FA4D /* Build configuration list for PBXNativeTarget "EuropeanTravel" */;
+			buildPhases = (
+				4A0822F4CC5EE481E93D2738 /* [CP] Check Pods Manifest.lock */,
+				D5308EB62410FE2500A3FA4D /* Sources */,
+				D5308EB72410FE2500A3FA4D /* Frameworks */,
+				D5308EB82410FE2500A3FA4D /* Resources */,
+				D469DAE3404B6A81A424E5C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EuropeanTravel;
+			productName = EuropeanTravel;
+			productReference = D5308EBA2410FE2500A3FA4D /* 欧洲旅行锦囊.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5308ED42410FE2700A3FA4D /* EuropeanTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5308EEC2410FE2700A3FA4D /* Build configuration list for PBXNativeTarget "EuropeanTravelTests" */;
+			buildPhases = (
+				01CEE0FD51644A19F2EA77FD /* [CP] Check Pods Manifest.lock */,
+				D5308ED12410FE2700A3FA4D /* Sources */,
+				D5308ED22410FE2700A3FA4D /* Frameworks */,
+				D5308ED32410FE2700A3FA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5308ED72410FE2700A3FA4D /* PBXTargetDependency */,
+			);
+			name = EuropeanTravelTests;
+			productName = EuropeanTravelTests;
+			productReference = D5308ED52410FE2700A3FA4D /* EuropeanTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5308EDF2410FE2700A3FA4D /* EuropeanTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5308EEF2410FE2700A3FA4D /* Build configuration list for PBXNativeTarget "EuropeanTravelUITests" */;
+			buildPhases = (
+				FBD1ABD439009E4D16AB3495 /* [CP] Check Pods Manifest.lock */,
+				D5308EDC2410FE2700A3FA4D /* Sources */,
+				D5308EDD2410FE2700A3FA4D /* Frameworks */,
+				D5308EDE2410FE2700A3FA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5308EE22410FE2700A3FA4D /* PBXTargetDependency */,
+			);
+			name = EuropeanTravelUITests;
+			productName = EuropeanTravelUITests;
+			productReference = D5308EE02410FE2700A3FA4D /* EuropeanTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5308EB22410FE2500A3FA4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZSB;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = EuropeanTravel;
+				TargetAttributes = {
+					D5308EB92410FE2500A3FA4D = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					D5308ED42410FE2700A3FA4D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D5308EB92410FE2500A3FA4D;
+					};
+					D5308EDF2410FE2700A3FA4D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D5308EB92410FE2500A3FA4D;
+					};
+				};
+			};
+			buildConfigurationList = D5308EB52410FE2500A3FA4D /* Build configuration list for PBXProject "EuropeanTravel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5308EB12410FE2500A3FA4D;
+			productRefGroup = D5308EBB2410FE2500A3FA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5308EB92410FE2500A3FA4D /* EuropeanTravel */,
+				D5308ED42410FE2700A3FA4D /* EuropeanTravelTests */,
+				D5308EDF2410FE2700A3FA4D /* EuropeanTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5308EB82410FE2500A3FA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5308F732411EDF400A3FA4D /* 冰岛.gif in Resources */,
+				D5308F602411EDF400A3FA4D /* 芬兰.gif in Resources */,
+				D5308F772411EDF400A3FA4D /* 立陶宛.gif in Resources */,
+				D553A3AE241F482B0036768F /* headURl.plist in Resources */,
+				D5308F542411EDF400A3FA4D /* 拉脱维亚.gif in Resources */,
+				D5308EF52411007900A3FA4D /* 1.jpg in Resources */,
+				D553A3B0241F4B860036768F /* comment.plist in Resources */,
+				D541B02B2412577C0085A27B /* 11.jpg in Resources */,
+				D5A5338C241B3A9800464E85 /* fabu@2x.png in Resources */,
+				D541B03624125CE50085A27B /* wode.png in Resources */,
+				D5308F572411EDF400A3FA4D /* 俄罗斯.gif in Resources */,
+				D553A3CC242095BE0036768F /* wenzhang@2x.png in Resources */,
+				D5308F782411EDF400A3FA4D /* 卢森堡.gif in Resources */,
+				D5308F6F2411EDF400A3FA4D /* 荷兰.gif in Resources */,
+				D5308F5B2411EDF400A3FA4D /* 意大利.gif in Resources */,
+				D5308F512411EDF400A3FA4D /* 瑞士.gif in Resources */,
+				D541B025241256750085A27B /* 10.jpg in Resources */,
+				D5308F5C2411EDF400A3FA4D /* 斯洛文尼亚.gif in Resources */,
+				D5308F6C2411EDF400A3FA4D /* 奥地利.gif in Resources */,
+				D5308F642411EDF400A3FA4D /* 比利时.gif in Resources */,
+				D5308F5D2411EDF400A3FA4D /* 西班牙.gif in Resources */,
+				D5308F592411EDF400A3FA4D /* 圣马力诺.gif in Resources */,
+				D5308F682411EDF400A3FA4D /* 斯洛伐克.gif in Resources */,
+				D541B004241226FA0085A27B /* jsonData.plist in Resources */,
+				D553A3CB242095BE0036768F /* commnet@2x.png in Resources */,
+				D553A3CA242095BE0036768F /* like@2x.png in Resources */,
+				D5308F692411EDF400A3FA4D /* 马其顿.gif in Resources */,
+				D541B029241257610085A27B /* 8.jpg in Resources */,
+				D5308ECD2410FE2700A3FA4D /* LaunchScreen.storyboard in Resources */,
+				D5308F702411EDF400A3FA4D /* 波斯尼亚和 黑塞哥维那.gif in Resources */,
+				D5308F5E2411EDF400A3FA4D /* 葡萄牙.gif in Resources */,
+				D5308F662411EDF400A3FA4D /* 爱沙尼亚.gif in Resources */,
+				D5308F672411EDF400A3FA4D /* 瑞典.gif in Resources */,
+				D541B021241255490085A27B /* 2.jpg in Resources */,
+				D5308F632411EDF400A3FA4D /* 安道尔.gif in Resources */,
+				D541B08B241650C60085A27B /* gengduo@2x.png in Resources */,
+				D5308F762411EDF400A3FA4D /* 匈牙利.gif in Resources */,
+				D541B01E241255490085A27B /* 5.jpg in Resources */,
+				D5308F4D2411EDF400A3FA4D /* 波兰.gif in Resources */,
+				D553A3BC241F7C810036768F /* firend.plist in Resources */,
+				D5308F722411EDF400A3FA4D /* 挪威.gif in Resources */,
+				D5308ECA2410FE2700A3FA4D /* Assets.xcassets in Resources */,
+				D5308F5A2411EDF400A3FA4D /* 马耳他.gif in Resources */,
+				D5308EC82410FE2500A3FA4D /* Main.storyboard in Resources */,
+				D541B0272412575B0085A27B /* 7.jpg in Resources */,
+				D5308F752411EDF400A3FA4D /* 欧盟.jpg in Resources */,
+				D541B01B241255490085A27B /* 6.jpg in Resources */,
+				D5308F6B2411EDF400A3FA4D /* 希腊.gif in Resources */,
+				D541B01D241255490085A27B /* 4.jpg in Resources */,
+				D5308F622411EDF400A3FA4D /* 塞尔维亚.gif in Resources */,
+				D541B01F241255490085A27B /* 3.jpg in Resources */,
+				D5308F6A2411EDF400A3FA4D /* 黑山.jpg in Resources */,
+				D5308F522411EDF400A3FA4D /* 梵蒂冈 .gif in Resources */,
+				D5308F652411EDF400A3FA4D /* 阿尔巴尼亚.gif in Resources */,
+				D5308F552411EDF400A3FA4D /* 乌克兰.gif in Resources */,
+				D5308F502411EDF400A3FA4D /* 摩纳哥.gif in Resources */,
+				D553A3CE242097830036768F /* head@2x.png in Resources */,
+				D5308F612411EDF400A3FA4D /* 丹麦.gif in Resources */,
+				D5308F532411EDF400A3FA4D /* 马耳他骑士团.jpg in Resources */,
+				D5308F7A2411EDF400A3FA4D /* 爱尔兰.gif in Resources */,
+				D5A53394241B55F000464E85 /* youji.plist in Resources */,
+				D5308F6D2411EDF400A3FA4D /* 摩尔多瓦.gif in Resources */,
+				D5A53390241B3F8D00464E85 /* tianjiatupian@2x.png in Resources */,
+				D553A3C4242083FA0036768F /* bg@2x.png in Resources */,
+				D5308F562411EDF400A3FA4D /* 法国.gif in Resources */,
+				D5308F582411EDF400A3FA4D /* 保加利亚.gif in Resources */,
+				D5308F4E2411EDF400A3FA4D /* 列支敦士登.gif in Resources */,
+				D5308F6E2411EDF400A3FA4D /* 罗马尼亚.gif in Resources */,
+				D5308F5F2411EDF400A3FA4D /* 德国.gif in Resources */,
+				D5308F4F2411EDF400A3FA4D /* 英国.gif in Resources */,
+				D5308F792411EDF400A3FA4D /* 捷克.gif in Resources */,
+				D541B024241256750085A27B /* 9.jpg in Resources */,
+				D5308F742411EDF400A3FA4D /* 克罗地亚.gif in Resources */,
+				D5308F712411EDF400A3FA4D /* 白俄罗斯.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308ED32410FE2700A3FA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308EDE2410FE2700A3FA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01CEE0FD51644A19F2EA77FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EuropeanTravelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A0822F4CC5EE481E93D2738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EuropeanTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D469DAE3404B6A81A424E5C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EuropeanTravel/Pods-EuropeanTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EuropeanTravel/Pods-EuropeanTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EuropeanTravel/Pods-EuropeanTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD1ABD439009E4D16AB3495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EuropeanTravelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5308EB62410FE2500A3FA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D553A3B8241F74830036768F /* ZSBTogetherViewController.swift in Sources */,
+				D5308EC52410FE2500A3FA4D /* ViewController.m in Sources */,
+				D553A3BA241F788E0036768F /* ZSBCarView.swift in Sources */,
+				D553A3D52420AC2A0036768F /* ZSBchangeNameViewController.swift in Sources */,
+				D5A53392241B45FC00464E85 /* ZSBPlaceHolder.swift in Sources */,
+				D541B093241772610085A27B /* ZSBPrivateAlterView.swift in Sources */,
+				D553A3AA241F20060036768F /* ZSBCommentsViewController.swift in Sources */,
+				D5308F7D2411EEE500A3FA4D /* ZSBFIleManger.m in Sources */,
+				D5A5338A241B2DBF00464E85 /* XLSphereView.m in Sources */,
+				D553A39B241B6F530036768F /* ZSBMainViewController.m in Sources */,
+				D5A5338E241B3B2200464E85 /* ZSBFabuViewController.swift in Sources */,
+				D541B00724123D290085A27B /* ZSBDetialViewController.m in Sources */,
+				D553A3D0242098BE0036768F /* ZSBMyCommentViewController.swift in Sources */,
+				D553A3AC241F2BC50036768F /* ZSBCommentsCell.swift in Sources */,
+				D541B078241625C80085A27B /* ZSBLeftViewController.swift in Sources */,
+				D5308F1B2411061800A3FA4D /* IGLDropDownItem.m in Sources */,
+				D541B091241746CE0085A27B /* ZSBSearchCell.swift in Sources */,
+				D541B087241631B90085A27B /* ZSBmyLikeViewController.swift in Sources */,
+				D541B085241631A30085A27B /* ZSBPrivateViewController.swift in Sources */,
+				D5308F802411F83100A3FA4D /* ZSBListViewController.m in Sources */,
+				D541B08924163EC20085A27B /* ZSBMyLikeListCell.swift in Sources */,
+				D553A3A2241B8A790036768F /* ZSBTool.swift in Sources */,
+				D5A53382241B268900464E85 /* ZSBTravelListViewController.swift in Sources */,
+				D541B08F24173FD90085A27B /* ZSBSearchViewController.swift in Sources */,
+				D541B081241630E50085A27B /* UIColor.swift in Sources */,
+				D553A3B4241F66600036768F /* MBLoding.swift in Sources */,
+				D553A3A0241B76FD0036768F /* ZSBregisterViewController.swift in Sources */,
+				D541B08D241661420085A27B /* ZSBLoginViewController.swift in Sources */,
+				D541B07A241628A90085A27B /* ZSBLeftCellTableViewCell.swift in Sources */,
+				D59E520E2419F857003AC909 /* ZSBImageBig.swift in Sources */,
+				D541B072241624630085A27B /* XLSlideMenu.m in Sources */,
+				D553A3C2242080F30036768F /* ZSBMyheadCell.swift in Sources */,
+				D553A3A4241B8ADB0036768F /* MyWebViewViewController.swift in Sources */,
+				D553A3B2241F56F20036768F /* CommentView.swift in Sources */,
+				D5308EBF2410FE2500A3FA4D /* AppDelegate.m in Sources */,
+				D553A3BE24207A660036768F /* ZSBMyViewController.swift in Sources */,
+				D5A53384241B27D200464E85 /* ZSBTravelListCell.swift in Sources */,
+				D553A3D32420A8150036768F /* SelectPhotoManager.m in Sources */,
+				D541B071241624630085A27B /* UIViewController+XLSlideMenu.m in Sources */,
+				D5308F1A2411061800A3FA4D /* IGLDropDownMenu.m in Sources */,
+				D553A3A6241B90970036768F /* BaseNAVViewController.swift in Sources */,
+				D541B00024121FC00085A27B /* ZSBAiiCountryViewController.m in Sources */,
+				D5308ED02410FE2700A3FA4D /* main.m in Sources */,
+				D541B083241631940085A27B /* ZSBAboutViewController.swift in Sources */,
+				D59E520A2419F667003AC909 /* ZSBTraveLineViewController.swift in Sources */,
+				D5308F842411FFB500A3FA4D /* ZSBListTableViewCell.m in Sources */,
+				D59E520C2419F689003AC909 /* ZSBBaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308ED12410FE2700A3FA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5308EDA2410FE2700A3FA4D /* EuropeanTravelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308EDC2410FE2700A3FA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5308EE52410FE2700A3FA4D /* EuropeanTravelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5308ED72410FE2700A3FA4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5308EB92410FE2500A3FA4D /* EuropeanTravel */;
+			targetProxy = D5308ED62410FE2700A3FA4D /* PBXContainerItemProxy */;
+		};
+		D5308EE22410FE2700A3FA4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5308EB92410FE2500A3FA4D /* EuropeanTravel */;
+			targetProxy = D5308EE12410FE2700A3FA4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5308EC62410FE2500A3FA4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5308EC72410FE2500A3FA4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5308ECB2410FE2700A3FA4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5308ECC2410FE2700A3FA4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5308EE72410FE2700A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5308EE82410FE2700A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5308EEA2410FE2700A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD82122587983BF7D81AB9B /* Pods-EuropeanTravel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RK22BJYL;
+				GCC_PREFIX_HEADER = /Users/crespo/Desktop/IOS_PROJECT/EuropeanTravel/EuropeanTravel/PrefixHeader.pch;
+				INFOPLIST_FILE = EuropeanTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuropeanTravel.EuropeanTravel;
+				PRODUCT_NAME = "欧洲旅行锦囊";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EuropeanTravel/Class/EuropeanTravel-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "EuropeanTravel-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5308EEB2410FE2700A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC3EEEC6D5AC9858ED87CBF /* Pods-EuropeanTravel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5RK22BJYL;
+				GCC_PREFIX_HEADER = /Users/crespo/Desktop/IOS_PROJECT/EuropeanTravel/EuropeanTravel/PrefixHeader.pch;
+				INFOPLIST_FILE = EuropeanTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuropeanTravel.EuropeanTravel;
+				PRODUCT_NAME = "欧洲旅行锦囊";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EuropeanTravel/Class/EuropeanTravel-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "EuropeanTravel-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5308EED2410FE2700A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF714D61341025B0CB1563C5 /* Pods-EuropeanTravelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EuropeanTravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuropeanTravel.EuropeanTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuropeanTravel.app/EuropeanTravel";
+			};
+			name = Debug;
+		};
+		D5308EEE2410FE2700A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42B4D75BB0B3982864D28C0 /* Pods-EuropeanTravelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EuropeanTravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuropeanTravel.EuropeanTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuropeanTravel.app/EuropeanTravel";
+			};
+			name = Release;
+		};
+		D5308EF02410FE2700A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1459A7454B8C780C3F82916F /* Pods-EuropeanTravelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EuropeanTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuropeanTravel.EuropeanTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EuropeanTravel;
+			};
+			name = Debug;
+		};
+		D5308EF12410FE2700A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289C6DF3EDE708698142078E /* Pods-EuropeanTravelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EuropeanTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EuropeanTravel.EuropeanTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EuropeanTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5308EB52410FE2500A3FA4D /* Build configuration list for PBXProject "EuropeanTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308EE72410FE2700A3FA4D /* Debug */,
+				D5308EE82410FE2700A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5308EE92410FE2700A3FA4D /* Build configuration list for PBXNativeTarget "EuropeanTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308EEA2410FE2700A3FA4D /* Debug */,
+				D5308EEB2410FE2700A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5308EEC2410FE2700A3FA4D /* Build configuration list for PBXNativeTarget "EuropeanTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308EED2410FE2700A3FA4D /* Debug */,
+				D5308EEE2410FE2700A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5308EEF2410FE2700A3FA4D /* Build configuration list for PBXNativeTarget "EuropeanTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308EF02410FE2700A3FA4D /* Debug */,
+				D5308EF12410FE2700A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5308EB22410FE2500A3FA4D /* Project object */;
+}
